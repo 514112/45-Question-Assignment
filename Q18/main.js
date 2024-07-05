@@ -1,3 +1,4 @@
+"use strict";
 /*Seeing the World: Think of at least five places in the world you’d like to visit.
 • Store the locations in a array. Make sure the array is not in alphabetical order.
 
@@ -19,7 +20,7 @@
 
 • Sort to change your array so it’s stored in reverse alphabetical order. Print the list to show that its order has changed.*/
 // Print your array in its original order.
-var myfavPlaces = ["Swat", "Turkey", "Maldives", "Switzealand", "Kashmir"];
+let myfavPlaces = ["Swat", "Turkey", "Maldives", "Switzealand", "Kashmir"];
 console.log("Original Order:", myfavPlaces);
 // Print your array in alphabetical order without modifying the actual list.
 console.log("Alphabetical Order :", myfavPlaces.slice().sort());
