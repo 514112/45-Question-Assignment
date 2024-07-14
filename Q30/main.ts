@@ -9,7 +9,7 @@ userName.forEach (oneUser =>{
     if(oneUser == "Admin"){
         console.log(`Hello ${userName},Would you like to a status report?`);
      } else{
-        console.log(`Hello ${userName},Would you like to a status repoty?`);
+        console.log(`Hello ${userName},Would you like to a status report?`);
         
      }
 })
