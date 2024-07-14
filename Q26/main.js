@@ -1,3 +1,4 @@
+"use strict";
 /* Alien Colors #2: Choose a color for an alien as you did in Exercise 25, and write an if-else chain.
 • If the alien’s color is green, print a statement that the player just earned 5 points for shooting the alien.
 
@@ -14,7 +15,7 @@ else {
     console.log("Player earned 10 points for shoot the other color alien.");
 }*/
 //SECOND VERSION
-var alien_color = "purple";
+let alien_color = "purple";
 if (alien_color === "green") {
     console.log("Player earned 10 points for shooting the Green alien.");
 }

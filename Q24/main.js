@@ -1,3 +1,4 @@
+"use strict";
 /* More Conditional Tests: You don’t have to limit the number of tests you create to 10. If you want to try more comparisons, write more tests. Have at least one True and one False result for each of the following:
 • Tests for equality and inequality with strings
 
@@ -11,22 +12,22 @@
 
 • Test whether an item is not in a array */
 //Lower case function
-var uppercaseTea = "Tea";
+let uppercaseTea = "Tea";
 console.log("TEA is equal to tea after convert into lowerCase");
 console.log(uppercaseTea.toLocaleLowerCase() == "Tea");
 console.log("TEA is not equal to tea after convert into LowerCase");
 console.log(uppercaseTea.toLocaleUpperCase() !== "tea");
 //Numerical Test
 //Test Equality & Inequality
-var fifteen = 15;
-var eight = 8;
+let fifteen = 15;
+let eight = 8;
 console.log("Fifteen is equal to eight");
 console.log(fifteen == 8);
 console.log("Eight is not equal to fifteen");
 console.log(eight !== 15);
 //Test Greater than & less than
-var five = 5;
-var three = 3;
+let five = 5;
+let three = 3;
 //Greater than
 console.log("Five is greater than three");
 console.log(five > 3);
@@ -51,7 +52,7 @@ console.log(five !== 3 || five > 3);
 console.log("five is equal to three or five is less than three");
 console.log(five == 3 || five < 3);
 //• Test whether an item is in a array
-var friends = ["Namal", "Tehreem", "Hajra", "Humail"];
+let friends = ["Namal", "Tehreem", "Hajra", "Humail"];
 console.log("Namal is include in my array");
 console.log(friends.includes("Namal"));
 //• Test whether an item is not in a array */
