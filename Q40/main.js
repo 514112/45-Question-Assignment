@@ -6,7 +6,6 @@
         tracks?: tracks?
     }
 }*/
-Object.defineProperty(exports, "__esModule", { value: true });
 function make_album(artist_name, album_title, tracks) {
     let album = {
         artist: artist_name,

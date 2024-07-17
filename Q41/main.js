@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function show_magicians(magicians) {
     magicians.forEach(name => console.log(name));
 }

@@ -1,12 +1,7 @@
-function makeSandwich() {
-    var items = [];
-    for (var _i = 0; _i < arguments.length; _i++) {
-        items[_i] = arguments[_i];
-    }
+"use strict";
+function makeSandwich(...items) {
     console.log("Making a Sandwich with the following items");
-    items.forEach(function (singleItem) {
-        return console.log(singleItem);
-    });
+    items.forEach(singleItem => console.log(singleItem));
     console.log("Lets Enjoy Your Sandwich!");
 }
 makeSandwich("Bread", "Butter");

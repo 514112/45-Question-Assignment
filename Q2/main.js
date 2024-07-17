@@ -3,3 +3,5 @@
 //Your message should be simple, such as, “Hello Eric, would you like to learn some Python today?”
 let person = "Haya";
 console.log(`Hello ${person}, Would like to learn some Python today`);
+let personName = "Namal Khan";
+console.log(`Hello ${personName}, Would you like to learn some python today`);
