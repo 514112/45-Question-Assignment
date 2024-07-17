@@ -2,8 +2,11 @@
 
 
 //lowercase, uppercase,and titlecase.
+
  let Name = "Namal khan";
+
  console.log("Lower Case:",Name.toLowerCase());
+ 
  console.log("UpperCase:",Name.toUpperCase());
 
  console.log("titleCase:",Name.replace(/\bw/g,c => c.toUpperCase()));
